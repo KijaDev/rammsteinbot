@@ -1,0 +1,21 @@
+{
+  "name": "rammstein",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deployCommands": "node src/deploy-commands.js"
+  },
+  "author": "Kija",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.3.0",
+    "@discordjs/rest": "^1.3.0",
+    "discord-api-types": "^0.37.18",
+    "discord.js": "^13.9.0",
+    "dotenv": "^16.0.3",
+    "node": "^16.18.1"
+  }
+}
